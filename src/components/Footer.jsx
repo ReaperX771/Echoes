@@ -59,11 +59,11 @@ function Footer() {
             <div className='flex flex-col gap-3'>
               <h1 className='text-xl text-white'>Connect</h1>
               <div className='flex gap-3'>
-                              <a href=''>      
+                              <a href='https://www.instagram.com/accounts/login/'>      
                 <FaInstagram className='text-white w-5 h-5 cursor-pointer  hover:text-[#EFB337] duration-700' />
                               </a>
                               
-                              <a href=''>
+                              <a href='https://x.com/Reaper07X?t=rv264n1o2-bfQT6kpk2qQQ&s=09'>
                 <FaXTwitter className='text-white w-5 h-5 hover:text-[#EFB337] duration-700'/>
                               </a>
 

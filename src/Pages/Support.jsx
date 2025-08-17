@@ -43,7 +43,7 @@ function Support() {
               <FaEnvelope className="text-2xl text-[#155DFC]" />
               <div className="flex items-center gap-1 text-lg text-[#101828]">
                 <p>Email:</p>
-                <p className="cursor-pointer">doyinspace@gmail.com</p>
+                <p className="cursor-pointer">control0177@gmail.com</p>
               </div>
             </div>
 
@@ -51,7 +51,7 @@ function Support() {
               <FaWhatsapp className="text-2xl text-[#57b27f]" />
               <div className="flex items-center gap-1 text-lg text-[#101828]">
                 <p>WhatsApp:</p>
-                <p className="cursor-pointer">+234 903 566 7678</p>
+                <p className="cursor-pointer">+2347025137714</p>
               </div>
             </div>
           </div>
