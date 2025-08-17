@@ -26,7 +26,7 @@ function Footer() {
             </p>
           </div>
 
-          <div className='flex gap-10 sm:gap-30 lg:gap-60'>
+          <div className='flex gap-7 sm:gap-30 lg:gap-60'>
             <div>
               <h1 className='text-xl text-white mb-3'>Explore</h1>
               <Link to='/seerah'>
@@ -43,7 +43,7 @@ function Footer() {
               </Link>
             </div>
 
-            <div>
+            <div >
               <h1 className='text-xl text-white mb-3'>Resources</h1>
               <Link to='/about'>
                 <p className='text-[16px] hover:text-[#EFB337] duration-700 cursor-pointer text-white'>About us</p>
