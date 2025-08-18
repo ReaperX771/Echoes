@@ -63,7 +63,7 @@ function Footer() {
                 <FaInstagram className='text-white w-5 h-5 cursor-pointer  hover:text-[#EFB337] duration-700' />
                               </a>
                               
-                              <a href='https://x.com/Reaper07X?t=rv264n1o2-bfQT6kpk2qQQ&s=09'>
+                              <a href=''>
                 <FaXTwitter className='text-white w-5 h-5 hover:text-[#EFB337] duration-700'/>
                               </a>
 
