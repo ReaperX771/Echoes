@@ -72,7 +72,7 @@ function Hero() {
 
   return (
     <section>
-      <div className="flex w-[90%] overflow-x-hidden m-auto mt-30 items-center md:gap-20 lg:justify-between flex-col md:flex-row">
+      <div className="flex md:flex-row flex-col lg:justify-between items-center md:gap-20 m-auto mt-30 w-[90%] overflow-x-hidden">
         {/* Text Section */}
         <div
           ref={textRef}
@@ -83,7 +83,7 @@ function Hero() {
           }`}
         >
           <div className="flex flex-col gap-7">
-            <h1 className="text-4xl font-bold text-[#004D40] md:text-5xl text-center sm:text-start">
+            <h1 className="font-bold text-[#004D40] text-4xl md:text-5xl text-center sm:text-start">
               Echoes of Madinah
             </h1>
             <p className="text-[#364153] text-lg text-center sm:text-start">
@@ -93,16 +93,18 @@ function Hero() {
             </p>
           </div>
 
-          <div className="flex gap-4 justify-center sm:justify-start">
+          <div className="flex justify-center sm:justify-start gap-4">
             <Link to='/seerah'>
-            <button className="px-6 text-white bg-[#004D40] rounded-lg hover:bg-[#00695C] py-3 duration-700">
+            <button className="bg-[#004D40] hover:bg-[#00695C] px-6 py-3 rounded-lg text-white duration-700">
               Start Reading
             </button>
             </Link>
-
-            <button className="px-6 text-[#004D40] border border-[#004D40] rounded-lg hover:bg-[#004D40] hover:text-white duration-700 py-3">
+             
+             <Link to='/quiz'>
+            <button className="hover:bg-[#004D40] px-6 py-3 border border-[#004D40] rounded-lg text-[#004D40] hover:text-white duration-700">
               Take a Quiz
             </button>
+             </Link>
           </div>
         </div>
 
@@ -116,7 +118,7 @@ function Hero() {
           }`}
         >
           <img
-            className="w-100 lg:w-95 h-90 lg:h-120 rounded-xl xl:mr-20"
+            className="xl:mr-20 rounded-xl w-100 lg:w-95 h-90 lg:h-120"
             src={mosque}
             alt="Mosque"
           />
@@ -125,11 +127,11 @@ function Hero() {
 
       {/* Offerings */}
       <div className="flex flex-col gap-10 mt-50">
-        <h1 className="text-4xl font-bold text-[#004D40] text-center">
+        <h1 className="font-bold text-[#004D40] text-4xl text-center">
           Explore Our Offerings
         </h1>
 
-        <div className="flex flex-col md:flex-row justify-center gap-17">
+        <div className="flex md:flex-row flex-col justify-center gap-17">
           {[
             {
               icon: <FaBookOpen className="w-10 h-10 text-[#004D40]" />,
@@ -165,8 +167,8 @@ function Hero() {
               }`}
             >
               {item.icon}
-              <h1 className="text-[#004D40] text-lg font-bold">{item.title}</h1>
-              <p className="text-sm text-[#4A5565]">{item.text}</p>
+              <h1 className="font-bold text-[#004D40] text-lg">{item.title}</h1>
+              <p className="text-[#4A5565] text-sm">{item.text}</p>
             </div>
           ))}
         </div>
